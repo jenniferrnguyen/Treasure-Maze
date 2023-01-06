@@ -49,10 +49,10 @@ The algorithm for finding the maze embedded in the treasure map, given a startin
 <img width="610" alt="Screen Shot 2023-01-05 at 9 14 42 PM" src="https://user-images.githubusercontent.com/119923836/210934899-5127458d-6785-4134-a47d-5b96defb344a.png">
 
 
-Once you have found the maze, you have to solve it to find the treasure! The treasure is located at the point on the map corresponding to <br />
-the pixel whose shortest distance to the start, within the maze, is longest. In this context, distance is just the number of pixels on the <br />
-path in the maze between any pair of pixels (inclusive). You will search the maze for the shortest distance from the start to each maze point, <br />
-and then the solution will be the longest of those. The images below show the maze we discovered while decoding, and also the solution <br />
+Once you have found the maze, you have to solve it to find the treasure! The treasure is located at the point on the map corresponding to 
+the pixel whose shortest distance to the start, within the maze, is longest. In this context, distance is just the number of pixels on the 
+path in the maze between any pair of pixels (inclusive). You will search the maze for the shortest distance from the start to each maze point, 
+and then the solution will be the longest of those. The images below show the maze we discovered while decoding, and also the solution 
 path to the treasure. <br />
 <img width="606" alt="Screen Shot 2023-01-05 at 9 16 03 PM" src="https://user-images.githubusercontent.com/119923836/210935036-737b1666-a062-4935-847d-fce50304994f.png">
 
